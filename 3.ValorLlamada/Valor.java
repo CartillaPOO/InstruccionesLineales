@@ -5,7 +5,7 @@ public class Valor{
     float tiempoLlamada;
     float valorLlamada;
 
-    tiempoLlamada = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el tiempo de la llamada: "));
+    tiempoLlamada = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el tiempo de la llamada"));
 
     if(tiempoLlamada>3)
     {
