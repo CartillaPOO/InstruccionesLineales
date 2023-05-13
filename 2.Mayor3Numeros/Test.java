@@ -44,7 +44,6 @@ public class Test
         // Output
         JOptionPane.showMessageDialog(null, "El mayor es " + mayor);
 
-        // Fin
-        System.exit(0);  
+        System.exit(0); // Termina la ejecución del programa
     }
 }
