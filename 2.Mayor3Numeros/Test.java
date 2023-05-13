@@ -4,16 +4,19 @@ public class Test
 {
     public static void main(String[] args) 
     {
+        //
         // Declaración de variables
+        //
+
         int x, y, z, mayor;
         mayor = 0;
         
-        // Entrada
-        x = Integer.parseInt(JOptionPane.showInputDialog("Digite el vaalor de x: "));
-        y = Integer.parseInt(JOptionPane.showInputDialog("Digite el vaalor de y: "));
-        z = Integer.parseInt(JOptionPane.showInputDialog("Digite el vaalor de z: "));
+        // Input
+        x = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor de x: "));
+        y = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor de y: "));
+        z = Integer.parseInt(JOptionPane.showInputDialog("Digite el valor de z: "));
         
-        // Procesamiento
+        // Processing
         if (x>y)
         {
             if (x>z)
@@ -25,6 +28,7 @@ public class Test
                 mayor = z;
             }
         }
+
         else if (y>z)
         {
             if (y>x)
@@ -37,12 +41,10 @@ public class Test
             }
         }
 
-        // Salida
+        // Output
         JOptionPane.showMessageDialog(null, "El mayor es " + mayor);
 
         // Fin
-        System.exit(0);
-
-        
+        System.exit(0);  
     }
 }
