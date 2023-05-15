@@ -6,7 +6,7 @@ public class Test
     {
         //
         // Declaración de variables
-        //
+        //  
 
         int x, y, z, mayor;
         mayor = 0;
