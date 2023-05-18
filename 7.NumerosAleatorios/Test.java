@@ -1,5 +1,6 @@
 public class Test
 {
+    // Método principal
     public static void main(String[] args)
     {
         int n = (int)(Math.random()*6+1);
